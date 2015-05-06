@@ -1,0 +1,33 @@
+{
+  "name": "inquirer-async",
+  "version": "1.0.0",
+  "description": "A Promise-based interface into the inquirer prompting module",
+  "main": "inquirer-async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccheever/inquirer-async.git"
+  },
+  "keywords": [
+    "inquirer",
+    "prompt",
+    "readline",
+    "commandline",
+    "input",
+    "async",
+    "promise"
+  ],
+  "author": "Charlie Cheever <ccheever@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccheever/inquirer-async/issues"
+  },
+  "homepage": "https://github.com/ccheever/inquirer-async#readme",
+  "dependencies": {
+    "babel-runtime": "^5.2.16",
+    "co": "^4.5.4",
+    "inquirer": "^0.8.3"
+  }
+}
