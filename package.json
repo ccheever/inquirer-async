@@ -1,6 +1,6 @@
 {
   "name": "inquirer-async",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Promise-based interface into the inquirer prompting module",
   "main": "inquirer-async.js",
   "scripts": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ccheever/inquirer-async#readme",
   "dependencies": {
+    "@ccheever/inquirer": "^0.9.5",
     "babel-runtime": "^5.2.16",
     "co": "^4.5.4",
     "inquirer": "^0.8.3"

@@ -3,7 +3,7 @@
 var _Promise = require('babel-runtime/core-js/promise')['default'];
 
 var co = require('co');
-var inquirer = require('inquirer');
+var inquirer = require('@ccheever/inquirer');
 
 var promptAsync = co.wrap(function* (questions) {
   return new _Promise(function (fulfill, reject) {
